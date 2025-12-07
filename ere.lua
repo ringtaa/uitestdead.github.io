@@ -11,7 +11,7 @@ local Window = WindUI:CreateWindow({
     Icon = "star",
     Author = "discord.gg/ringta",
     Theme = "Dark",
-    Size = UDim2.fromOffset(500, 350),
+    Size = UDim2.fromOffset(620, 460),
     Transparent = false,
     HasOutline = true,
 })
@@ -26,17 +26,14 @@ Window:EditOpenButton({
 })
 
 local Tabs = {
-    Main = Window:Tab({ Title = "RedLight", Icon = "lightbulb" }),
-    Player = Window:Tab({ Title = "Dalgona", Icon = "cookie" }),
-    Tug = Window:Tab({ Title = "Tug Of War", Icon = "sword" }),
-    Hide = Window:Tab({ Title = "Hide And Seek", Icon = "eye-off" }),
-    Jump = Window:Tab({ Title = "Jump Rope", Icon = "grid-2x2" }),
-    Glass = Window:Tab({ Title = "Glass Bridge", Icon = "grid-2x2" }),
-    Mingle = Window:Tab({ Title = "Mingle", Icon = "tent" }),
-    Random = Window:Tab({ Title = "Random Features", Icon = "dices" }),
-    Rebel = Window:Tab({ Title = "Rebel", Icon = "crown" }),
+    Main = Window:Tab({ Title = "Main", Icon = "lightbulb" }),
+    Player = Window:Tab({ Title = "Teleport", Icon = "rocket" }),
+    Tug = Window:Tab({ Title = "Bring Items", Icon = "archive-restore" }),
+    Hide = Window:Tab({ Title = "Dupe Items", Icon = "layers" }),
+    Jump = Window:Tab({ Title = "Auto Bonds", Icon = "bitcoin" }),
+    Glass = Window:Tab({ Title = "Visual", Icon = "grid-2x2" }),
+    Mingle = Window:Tab({ Title = "Aura", Icon = "tent" }),
 }
-
 
 
 
@@ -59,14 +56,14 @@ Tabs.Jump:Toggle({
 })
 
 Tabs.Jump:Button({
-    Title = "New Entire UI Fixed",
+    Title = "TP To Sterling",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Glass Vision Fixed",
+    Title = "Bring Gold Bars",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
