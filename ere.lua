@@ -36,7 +36,10 @@ local Tabs = {
 }
 
 
-
+Tabs.Jump:Section({
+    Title = "Bypass",
+    Icon = "chess-queen",
+})
 
 Tabs.Jump:Toggle({
     Title = "Enable Bypass Anticheat",
@@ -53,6 +56,12 @@ Tabs.Jump:Toggle({
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
     end,
+})
+
+
+Tabs.Jump:Section({
+    Title = "Best Features",
+    Icon = "medal",
 })
 
 Tabs.Jump:Button({
