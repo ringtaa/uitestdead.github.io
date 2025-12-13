@@ -65,14 +65,14 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "TP To Sterling",
+    Title = "TP To StillWater Prison",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Bring Gold Bars",
+    Title = "Bring All Valuables Items",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
