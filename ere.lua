@@ -43,6 +43,7 @@ Tabs.Jump:Section({
 
 Tabs.Jump:Toggle({
     Title = "Enable Bypass Anticheat",
+    Icon = "person-standing",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -52,6 +53,7 @@ Tabs.Jump:Toggle({
 
 Tabs.Jump:Toggle({
     Title = "Enable Fly",
+    Icon = "helicopter",
     Default = false,
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/NEWTPTRAIN.github.io/refs/heads/main/TRAIN.LUA"))()
@@ -65,14 +67,18 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "TP To StillWater Prison",
+    Title = "Auto Bond & Auto Win",
+    IconAlign = "Left",
+    Icon = "circle-pound-sterling",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
 Tabs.Jump:Button({
-    Title = "Bring All Valuables Items",
+    Title = "Bring All Gold Bars",
+    IconAlign = "Left",
+    Icon = "bitcoin",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
