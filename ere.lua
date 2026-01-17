@@ -1,4 +1,4 @@
-local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/releases/latest/download/main.lua"))()
+local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/eeeiqjjj/WindUI/main/dist/main.lua"))()
 local Players = game:GetService("Players")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local RunService = game:GetService("RunService")
@@ -10,7 +10,7 @@ local Window = WindUI:CreateWindow({
     Title = "RINGTA",
     Icon = "star",
     Author = "discord.gg/ringta",
-    Theme = "Dark",
+    Theme = "Valentine",
     Size = UDim2.fromOffset(620, 460),
     Transparent = false,
     HasOutline = true,
