@@ -67,18 +67,19 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "Auto Bond & Auto Win",
+    Title = "Teleport To Evil Church",
     IconAlign = "Left",
-    Icon = "circle-pound-sterling",
+    Icon = "church",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
 })
 
+
 Tabs.Jump:Button({
-    Title = "Bring All Gold Bars",
+    Title = "Auto Bond & Auto Win",
     IconAlign = "Left",
-    Icon = "bitcoin",
+    Icon = "circle-pound-sterling",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
