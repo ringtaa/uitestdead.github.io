@@ -67,9 +67,9 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "Teleport To Evil Church",
+    Title = "Fixed Auto Bond Farm",
     IconAlign = "Left",
-    Icon = "church",
+    Icon = "circle-pound-sterling",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
@@ -77,9 +77,9 @@ Tabs.Jump:Button({
 
 
 Tabs.Jump:Button({
-    Title = "Auto Bond & Auto Win",
+    Title = "Teleport All Structures",
     IconAlign = "Left",
-    Icon = "circle-pound-sterling",
+    Icon = "castle",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
