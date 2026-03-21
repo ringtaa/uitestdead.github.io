@@ -67,9 +67,9 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "Fixed Auto Bond Farm",
+    Title = "Infinite Items Spawn",
     IconAlign = "Left",
-    Icon = "circle-pound-sterling",
+    Icon = "infinity",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
@@ -77,9 +77,9 @@ Tabs.Jump:Button({
 
 
 Tabs.Jump:Button({
-    Title = "Teleport All Structures",
+    Title = "New Auto Bond Farm",
     IconAlign = "Left",
-    Icon = "castle",
+    Icon = "circle-pound-sterling",
     Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ringtaa/castletpfast.github.io/refs/heads/main/FASTCASTLE.lua"))()
     end,
