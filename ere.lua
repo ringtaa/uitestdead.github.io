@@ -67,7 +67,7 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "Infinite Items Spawn",
+    Title = "Bring All Gold Bars",
     IconAlign = "Left",
     Icon = "infinity",
     Callback = function()
