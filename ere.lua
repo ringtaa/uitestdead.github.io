@@ -67,7 +67,7 @@ Tabs.Jump:Section({
 })
 
 Tabs.Jump:Button({
-    Title = "Bring All Gold Bars",
+    Title = "Bring All Valuable Items",
     IconAlign = "Left",
     Icon = "infinity",
     Callback = function()
